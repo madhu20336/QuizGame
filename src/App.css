@@ -1,0 +1,73 @@
+.App{
+  text-align: center;
+  font-family: Arial;
+}
+
+.selected {
+  background: yellow !important;
+}
+
+.options {
+  padding: 8px;
+  border: 3px solid #000;
+  cursor: pointer;
+  width:100%;
+  background-color: white;
+  color: rgb(5, 6, 7);
+  font-weight: bold;
+  border-radius: 7px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  margin: 5px;
+}
+
+.next{
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.finish{
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+.previous{
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+body{
+  display: flex;
+  justify-content: center;    
+  font-family: 'Segoe UI',;
+  font-size: 18px;
+  background: linear-gradient(110deg, #8e1992, #ffed4b, rgb(236, 11, 48));
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin-top: 11%;
+}
